@@ -1,0 +1,22 @@
+### 200 {user}
+PATCH http://localhost:5000/users/1
+Content-Type: application/json
+
+{
+    "firstName": "Newname",
+    "lastName": "Newlastname",
+    "email": "newmail@mail",
+    "tel":"+380987654321"
+}
+
+
+###400 {user}
+PATCH http://localhost:5000/users/1000
+Content-Type: application/json
+
+{
+    "firstName": "Newname",
+    "lastName": "Newlastname",
+    "email": "newmail@mail",
+    "tel":"+380987654321"
+}
