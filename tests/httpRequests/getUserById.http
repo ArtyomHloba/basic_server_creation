@@ -1,0 +1,5 @@
+### 200 {user}
+GET http://localhost:5000/users/2
+
+### 404 'User Not Found'
+GET http://localhost:5000/users/1000

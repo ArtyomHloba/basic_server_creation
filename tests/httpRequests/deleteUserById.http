@@ -1,0 +1,5 @@
+### 204 'User Deleted'
+DELETE http://localhost:5000/users/8
+
+###404 'User Not Found'
+DELETE http://localhost:5000/users/100
