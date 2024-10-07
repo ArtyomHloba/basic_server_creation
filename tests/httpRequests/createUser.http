@@ -1,10 +1,20 @@
-
-
+### 201 {user}
 POST http://localhost:5000/users HTTP/1.1
 Content-Type: application/json
 
 {
     "firstName": "Test", 
+    "lastName": "Testovych",
+    "email": "test11@mail.mail",
+    "tel": "+390123456786"
+}
+
+### 422 {user}
+POST http://localhost:5000/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "hest", 
     "lastName": "Testovych",
     "email": "test11@mail.mail",
     "tel": "+390123456786"
